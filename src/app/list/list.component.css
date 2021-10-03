@@ -1,0 +1,14 @@
+ul
+{
+    list-style-type: none;
+    color: black;
+}
+
+.completed
+{
+    text-decoration: line-through;
+}
+
+.my-input{
+    width: 280px;
+}
