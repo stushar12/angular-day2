@@ -1,22 +1,37 @@
 *{
     margin: 0;
-    font-size:20px
+    font-size: 20px;
 }
+
+
 .container-fluid
 {
-    height: 100vh;
-    background-color: #88c388;
+    height:100vh;
+
+    background: #1c92d2;  
+    background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);  
+    background: linear-gradient(to left, #f2fcfe, #1c92d2); 
+    
     display: flex;
     justify-content: center;
+    
 }
+
 
 .col
 {
-    background-color: white;
+  
+    background: #1c92d2; 
+background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  
+background: linear-gradient(to bottom, #f2fcfe, #1c92d2);
+
+
     height: fit-content;
     border-radius:10px;
     padding: 10px;
     margin: auto;
+    
+
 }
 
 
